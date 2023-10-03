@@ -45,4 +45,36 @@ a {
     flex: 1;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.placeholder-img {
+    display: flex;
+    flex-shrink: 0;
+    width: 450px;
+    height: 200px;
+    background-color: rgba(229, 231, 235, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 8px 30px;
+    margin: 8px 0;
+    border-radius: 10px;
+    border: 0;
+}
+
+.msg-header {
+    width: 450px;
 }
