@@ -78,3 +78,40 @@ button {
 .msg-header {
     width: 450px;
 }
+
+.information {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.info-container {
+    display: flex;
+    gap: 24px;
+}
+
+.img-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 175px;
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 100;
+    text-align: center;
+}
+
+.illustration {
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    height: 175px;
+    width: 175px;
+}
