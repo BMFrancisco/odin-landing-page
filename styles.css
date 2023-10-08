@@ -122,5 +122,27 @@ button {
 }
 
 .quote {
-    
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.msg-quote {
+    width: 850px;
+    font-style: italic;
+    font-size: 36px;
+    color: rgba(31, 41, 55, 0.7);
+    font-weight: lighter;
+}
+
+.autor {
+    width: 850px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: 900;
 }
