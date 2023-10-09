@@ -146,3 +146,26 @@ button {
     font-size: 24px;
     font-weight: 900;
 }
+
+.callout-container {
+    margin: 0;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    height: 150px;
+    border-radius: 20px;
+    background-color: #3882f6;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 125px;
+}
+
+.msg-callout {
+    color: #F9FAF8;
+}
