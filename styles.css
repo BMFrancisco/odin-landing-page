@@ -164,8 +164,24 @@ button {
     align-items: center;
     justify-content: space-between;
     padding: 0 125px;
+    color: #F9FAF8;
 }
 
-.msg-callout {
-    color: #F9FAF8;
+.callout {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.blue-box > button {
+    border: 3px solid #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
